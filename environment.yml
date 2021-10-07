@@ -2,7 +2,7 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - r-base=4.0.2
+  - r-base=4.0.3
   - r-tidyverse
   - r-factoextra
   - r-pheatmap
