@@ -22,7 +22,7 @@
   library(org.Hs.eg.db)
   
   # And set your working directory:
-  setwd("C:/Users/User/Desktop")  # Substitute 'User' by your actual username
+  setwd("data/")  
   
   
 
