@@ -12,21 +12,7 @@
 
 
 
-## Before starting: install and load required R packages
-
-  # Make sure you have R (https://cran.r-project.org/bin/windows/base/) (>=4.0.0) 
-  # and Rstudio (https://www.rstudio.com/products/rstudio/download/#download) 
-  # installed. Then install the following packages:
-  
-  install.packages("BiocManager")  # From CRAN
-  
-  BiocManager::install(version = "3.12", update = FALSE)
-  
-  options(timeout = 600) # Allow large package download
-  
-  BiocManager::install(c("edgeR", "topGO", "org.Hs.eg.db",  # From Bioconductor
-                         "factoextra", "pheatmap"           # and CRAN
-                         ), update = FALSE)
+## Before starting: Load required R packages
   
   # Load them in R:
   library(edgeR)  # edgeR loads limma 
