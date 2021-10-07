@@ -1,8 +1,14 @@
 channels:
   - conda-forge
+  - bioconda
 dependencies:
   - r-base=4.0.2
   - r-tidyverse
   - r-factoextra
   - r-pheatmap
+  - r-biocmanager
+  - bioconductor-biobase
+  - bioconductor-edger
+  - bioconductor-org.hs.eg.db
+  - bioconductor-topgo
 
