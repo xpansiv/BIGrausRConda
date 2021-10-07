@@ -6,8 +6,14 @@ dependencies:
   - r-tidyverse
   - r-factoextra
   - r-pheatmap
+  - r-gert
+  - r-irkernel
+  - r-later
+  - r-lubridate
   - r-biocmanager
   - bioconductor-biobase
+  - bioconductor-biocgenerics
+  - bioconductor-limma
   - bioconductor-edger
   - bioconductor-org.hs.eg.db
   - bioconductor-topgo
